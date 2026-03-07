@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/detect.js": {
+      "runtime": "edge"
+    },
+    "api/suggestions.js": {
+      "runtime": "edge"
+    },
+    "api/recipe.js": {
+      "runtime": "edge"
+    }
+  }
+}
