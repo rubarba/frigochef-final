@@ -2,7 +2,7 @@ export const config = {
   runtime: 'edge',
 };
 
-const API_KEY = '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';
+const API_KEY = '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';
 
 export default async function handler(request) {
   if (request.method !== 'POST') {
