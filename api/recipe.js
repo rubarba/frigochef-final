@@ -2,7 +2,7 @@ export const config = {
   runtime: 'edge',
 };
 
-const API_KEY = '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';
+const API_KEY = process.env.ANTHROPIC_API_KEY;
 
 export default async function handler(request) {
   if (request.method !== 'POST') {
