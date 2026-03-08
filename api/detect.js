@@ -2,7 +2,7 @@ export const config = {
   runtime: 'edge',
 };
 
-const API_KEY = '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';
+const API_KEY = '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';
 
 export default async function handler(request) {
   if (request.method !== 'POST') {
@@ -41,7 +41,7 @@ export default async function handler(request) {
         'anthropic-version': '2023-06-01'
       },
       body: JSON.stringify({
-        model: 'claude-3-5-haiku-latest',
+        model: 'claude-haiku-4-5-20251001',
         max_tokens: 1024,
         messages: [{
           role: 'user',
